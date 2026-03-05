@@ -1,0 +1,25 @@
+{
+  "name": "organizer",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "latest",
+    "expo-camera": "latest",
+    "expo-file-system": "latest",
+    "expo-image-picker": "latest",
+    "expo-print": "latest",
+    "expo-sharing": "latest",
+    "expo-status-bar": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-qrcode-svg": "latest",
+    "@react-native-async-storage/async-storage": "latest"
+  }
+}

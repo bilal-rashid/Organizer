@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Clothes Organizer",
+    "slug": "clothes-organizer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Use the camera to scan bag QR codes and capture photos.",
+        "NSPhotoLibraryUsageDescription": "Pick suit photos from your library.",
+        "NSPhotoLibraryAddUsageDescription": "Save generated QR code and documents."
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
